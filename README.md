@@ -1,5 +1,6 @@
 # lemIPC
-Two dimensionnal fight game using shared memory
+Two dimensionnal fight game using shared memory.
+The board is displayed with Ncurses library.
 
 # Rules
 The goal is to fight players (spread over several teams) on a two dimensions game board.
