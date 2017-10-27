@@ -11,7 +11,22 @@ The goal is to fight players (spread over several teams) on a two dimensions gam
 - A square cannot host more than one player simultaneously
 
 # Compile
+compiling:
+    
     make
+    
+cleaning obj files:
+
+    make clean
+    
+cleaning binary files:
+
+    make fclean
+    
+    
+cleaning all and compile:
+
+    make re
 
 # How to use it
 Launch the board:
