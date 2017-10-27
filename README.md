@@ -13,19 +13,20 @@ to kill. It means on a square next to the one where the player you want to kill 
 A square cannot host more than one player simultaneously.
 
 # Compile
-> *make*
+    make
 
 # How to use it
 Launch the board:
 
-> *./lemipc PATH_SHARED_MEM TEAM_NB* 
+    ./lemipc PATH_SHARED_MEM TEAM_NB
 
 The path will be use to share memory between all the processus.
 The team number will be not used by the board.
 
 
 Launch a player:
-> *./lemipc PATH_SHARED_MEM TEAM_NB*
+
+    ./lemipc PATH_SHARED_MEM TEAM_NB
 
 The path will be use to know where is the board's shared memory.
 The team number will used to create a team.
