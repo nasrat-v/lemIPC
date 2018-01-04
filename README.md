@@ -1,5 +1,5 @@
 # lemIPC
-Two dimensionnal fight game using Shared Memory.
+Two dimensionnal fight game using semaphore, segment of shared library and message queue.
 
 The board is displayed with Ncurses library.
 
